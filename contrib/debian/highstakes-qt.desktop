@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=HighStakes
+Comment=HighStakes P2P Cryptocurrency
+Comment[fr]=HighStakes, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=HighStakes, eşten eşe kriptografik sanal para birimi
+Exec=highstakes-qt %u
+Terminal=false
+Type=Application
+Icon=highstakes128
+MimeType=x-scheme-handler/highstakes;
+Categories=Office;Finance;

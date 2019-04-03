@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/highstakes_bg.qm</file>
+        <file alias="ca">locale/highstakes_ca.qm</file>
+        <file alias="cs">locale/highstakes_cs.qm</file>
+        <file alias="da">locale/highstakes_da.qm</file>
+        <file alias="de">locale/highstakes_de.qm</file>
+        <file alias="en">locale/highstakes_en.qm</file>
+        <file alias="en_US">locale/highstakes_en_US.qm</file>
+        <file alias="eo">locale/highstakes_eo.qm</file>
+        <file alias="es">locale/highstakes_es.qm</file>
+        <file alias="es_ES">locale/highstakes_es_ES.qm</file>
+        <file alias="fi">locale/highstakes_fi.qm</file>
+        <file alias="fr_FR">locale/highstakes_fr_FR.qm</file>
+        <file alias="hi_IN">locale/highstakes_hi_IN.qm</file>
+        <file alias="hr">locale/highstakes_hr.qm</file>
+        <file alias="hr_HR">locale/highstakes_hr_HR.qm</file>
+        <file alias="it">locale/highstakes_it.qm</file>
+        <file alias="ja">locale/highstakes_ja.qm</file>
+        <file alias="ko_KR">locale/highstakes_ko_KR.qm</file>
+        <file alias="lt_LT">locale/highstakes_lt_LT.qm</file>
+        <file alias="nl">locale/highstakes_nl.qm</file>
+        <file alias="pl">locale/highstakes_pl.qm</file>
+        <file alias="pt">locale/highstakes_pt.qm</file>
+        <file alias="pt_BR">locale/highstakes_pt_BR.qm</file>
+        <file alias="ro_RO">locale/highstakes_ro_RO.qm</file>
+        <file alias="ru">locale/highstakes_ru.qm</file>
+        <file alias="sk">locale/highstakes_sk.qm</file>
+        <file alias="sv">locale/highstakes_sv.qm</file>
+        <file alias="tr">locale/highstakes_tr.qm</file>
+        <file alias="uk">locale/highstakes_uk.qm</file>
+        <file alias="vi">locale/highstakes_vi.qm</file>
+        <file alias="zh_CN">locale/highstakes_zh_CN.qm</file>
+        <file alias="zh_TW">locale/highstakes_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,26 @@
+# /etc/conf.d/highstakesd: config file for /etc/init.d/highstakesd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/highstakes/highstakes.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/highstakesd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/highstakesd.pid"
+
+# Where to write highstakesd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/highstakesd"
+
+# User and group to own highstakesd process
+#BITCOIND_USER="highstakes"
+#BITCOIND_GROUP="highstakes"
+
+# Path to highstakesd executable
+#BITCOIND_BIN="/usr/bin/highstakesd"
+
+# Nice value to run highstakesd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
