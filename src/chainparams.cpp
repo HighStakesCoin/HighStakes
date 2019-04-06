@@ -54,7 +54,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x0000091f4064dad3858584788cf00407e3c0b4ce6a6e2ce740513ec71b51a599"))
+        (0, uint256("0x0000091f4064dad3858584788cf00407e3c0b4ce6a6e2ce740513ec71b51a599"))
 	(1, uint256("0x00000f04d2296fff9f287ba61952f3c023638632857cc6f43e1cbf7eda13aac3"))
 	(1978, uint256("0x884547e40613dfd03c3dfea0560c198f3c2abe7f982c68891a12e93e758ea0ba"))
 	(3257, uint256("0xefe2fcb58293e42598cf537bfb61e8797984456451325f26194a8bd7f6913bbb"))
@@ -62,8 +62,12 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 	(6718, uint256("0x3cf0af81b3c7a18609021dfc7d50a6ecbe1cdb8033bf090876acd5e943e95926"))
 	(8978, uint256("0x6262be3a83baa10f8ad358b3706a985a7169e16e5060893e8a03541cbcbf0647"))
 	(10544, uint256("0x518fb1d8ac33c865c24e6c43ae6fb60bc96489ab094cc9e55a23d1947be3c58d"))
-    (11201, uint256("0xc321436cd36e5d64047ae66e59c15b4c7df6d95ebbb1b0c26d8bbb9d10c85333"))
+        (11201, uint256("0xc321436cd36e5d64047ae66e59c15b4c7df6d95ebbb1b0c26d8bbb9d10c85333"))
 	(12140, uint256("0xb059f5ec4a30cf19f2cba2a4f9da38d28dca1c4834d11999ea446564a17defe5"))
+	(13526, uint256("0xaf42e04efc7a08bc1db54de2ce0716914ce24c20af5bd9521fb46a7b61e35c81"))
+	(13978, uint256("0x1ec5d0f3b136c5095dca0e40ed9558e90de9eaf632321e9e55e29a98f8358715"))
+        (14256, uint256("0xa1df707677f21715148ede08f18c69774ee7264c67876280aa0632adfae606f4"))
+	(15812, uint256("0xc7a9d178e6a1279385a789485059f0913269f7d4c798b4f2a967fd22d4189523"))
     	
 		
 ;
@@ -166,7 +170,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "Hamilton Bulldogs set to face a much different Ottawa 67’s squad this time around.";
+        const char* pszTimestamp = "Hamilton Bulldogs set to face a much different Ottawa 67â€™s squad this time around.";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
