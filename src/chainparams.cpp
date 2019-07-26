@@ -26,7 +26,7 @@ struct SeedSpec6 {
 
 #include "chainparamsseeds.h"
 
-/**
+/*
  * Main network
  */
 
@@ -54,7 +54,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    	(0, uint256("0x0000091f4064dad3858584788cf00407e3c0b4ce6a6e2ce740513ec71b51a599"))
+    (0, uint256("0x0000091f4064dad3858584788cf00407e3c0b4ce6a6e2ce740513ec71b51a599"))
 	(1, uint256("0x00000f04d2296fff9f287ba61952f3c023638632857cc6f43e1cbf7eda13aac3"))
 	(1978, uint256("0x884547e40613dfd03c3dfea0560c198f3c2abe7f982c68891a12e93e758ea0ba"))
 	(3257, uint256("0xefe2fcb58293e42598cf537bfb61e8797984456451325f26194a8bd7f6913bbb"))
@@ -62,26 +62,18 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 	(6718, uint256("0x3cf0af81b3c7a18609021dfc7d50a6ecbe1cdb8033bf090876acd5e943e95926"))
 	(8978, uint256("0x6262be3a83baa10f8ad358b3706a985a7169e16e5060893e8a03541cbcbf0647"))
 	(10544, uint256("0x518fb1d8ac33c865c24e6c43ae6fb60bc96489ab094cc9e55a23d1947be3c58d"))
-    	(11201, uint256("0xc321436cd36e5d64047ae66e59c15b4c7df6d95ebbb1b0c26d8bbb9d10c85333"))
+    (11201, uint256("0xc321436cd36e5d64047ae66e59c15b4c7df6d95ebbb1b0c26d8bbb9d10c85333"))
 	(12140, uint256("0xb059f5ec4a30cf19f2cba2a4f9da38d28dca1c4834d11999ea446564a17defe5"))
 	(13526, uint256("0xaf42e04efc7a08bc1db54de2ce0716914ce24c20af5bd9521fb46a7b61e35c81"))
 	(13978, uint256("0x1ec5d0f3b136c5095dca0e40ed9558e90de9eaf632321e9e55e29a98f8358715"))
-    	(14256, uint256("0xa1df707677f21715148ede08f18c69774ee7264c67876280aa0632adfae606f4"))
+    (14256, uint256("0xa1df707677f21715148ede08f18c69774ee7264c67876280aa0632adfae606f4"))
 	(15812, uint256("0xc7a9d178e6a1279385a789485059f0913269f7d4c798b4f2a967fd22d4189523"))
-	(27105, uint256("0xc5b170cf5df42c03e9dd3cf50db417e61e6db03e3383cb26189158ff99c6437e"))
-	(42214, uint256("0x887e9fd298cf30a1c3444605f8525c0cc748807e68074adc83ce8dcba7233f63"))
-	(59637, uint256("0x3d80b21e55fe03ee7b17c52e789a2661a3a1cf6f7323f8e70ee599f1d2b674f7"))
-	(75801, uint256("0x23c63c88e71d5c0ed6925063cd381d28a612dd0df4aec8a5f830f89d2c991655"))
-	(92769, uint256("0x50d600f43b129fcc72b9c80cb696a7011c23384e251f9d72a9960f0ba1cb402d"))
-	(116844, uint256("0x6b874db2ca5f14b9d8d9c572b4e402e139ce2b3996d30bca2e231ae5d5a912ab"))
-	(133456, uint256("0x50546b11fb063441139b53c1299e0b46a96dbd2b8d37499d623c0528c9b159b9"))
-	(148971, uint256("0xad68e105caa1b2997d43f399fb0b9e75f20bddc2e6ba8a118b5c7bec6d709cc1"))
-	(161105, uint256("0x50e67b0a90d29a78cceff0e208942a0ce887836f4606830ece6090566ac5b911"))
-	(168334, uint256("0x766909090754b054c11e516bbf708c2880f853a70106aba5c8e7f0ef9ccd2c2c"))
-	(172962, uint256("0x90bdc2bb582c8a1e951803f1bb8db15ef991fbb5740465fe312f33523aa2bfda"))
-	(172963, uint256("0xa68a6451d7f7eecb131b3b89e433081ea9e0ac95d330a84cb6e89d15e58f7b02"))
-	(172964, uint256("0x01fdfda8b2c1f0ab35a7b45d66a86a4df37a3230c984784c306d6346d5332ee7"))
-	(176200, uint256("0x9a7c40659dab08515cef2b01f9c6e0fa9e2ade1baec4f16c82e61ea7bad807c1"))		
+    (27105, uint256("0xc5b170cf5df42c03e9dd3cf50db417e61e6db03e3383cb26189158ff99c6437e"))
+    (116844, uint256("0x6b874db2ca5f14b9d8d9c572b4e402e139ce2b3996d30bca2e231ae5d5a912ab"))	
+    (172962, uint256("0x90bdc2bb582c8a1e951803f1bb8db15ef991fbb5740465fe312f33523aa2bfda")) 
+    (172963, uint256("0xa68a6451d7f7eecb131b3b89e433081ea9e0ac95d330a84cb6e89d15e58f7b02")) 
+    (172964, uint256("0x01fdfda8b2c1f0ab35a7b45d66a86a4df37a3230c984784c306d6346d5332ee7")) 
+    (176200, uint256("0x9a7c40659dab08515cef2b01f9c6e0fa9e2ade1baec4f16c82e61ea7bad807c1"))
 ;
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -182,7 +174,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "Hamilton Bulldogs set to face a much different Ottawa 67â€™s squad this time around.";
+        const char* pszTimestamp = "Hamilton Bulldogs set to face a much different Ottawa 67’s squad this time around.";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
